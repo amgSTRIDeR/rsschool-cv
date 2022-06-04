@@ -1,5 +1,5 @@
 # Ovchinnikov Aleksei
-![it's me](my-photo.jpg)
+![it's me](./rsschool-cv/assets/img/my-photo.jpg)
 ## Junior Frontend Developer
 *********
 ## Contact information:
