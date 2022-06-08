@@ -19,6 +19,7 @@
 ul [class],
 ol[class] {
     padding: 0;
+
     list-style: none;
 }
 
@@ -47,6 +48,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: normal;
     line-height: 1.5;
+
     background-color: #195f8a;
 }
 
@@ -55,8 +57,8 @@ a:not([class]) {
 }
 
 img {
-    max-width: 100%;
     display: block;
+    max-width: 100%;
 }
 
 input,
@@ -87,18 +89,22 @@ h3 {
 
 .navigation {
     padding-right: 50px;
+
     text-transform: uppercase;
 }
 
 .navigation_list {
+    justify-content: space-between;
+
     display: flex;
     padding-left: 0;
-    justify-content: space-between;
+
 }
 
 .navigation_item_link {
     font-size: 0.8rem;
     text-decoration: none;
+
     color: #ffffff;
 }
 
@@ -115,24 +121,28 @@ h3 {
 
 .profession {
     display: inline-block;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-size: 1.88rem;
     text-transform: uppercase;
+
     background-color: #3187ba;
-    padding: 5px 20px;
-    margin-bottom: 20px;
 }
 
 .description {
     max-width: 80%;
-    font-size: 1.56rem;
     padding-bottom: 10px;
+
+    font-size: 1.56rem;
 }
 
 .photo_wrapper {
-    width: 50%;
     overflow: hidden;
+
+    width: 50%;
     max-height: 675px;
 }
 
@@ -163,8 +173,9 @@ h3 {
 }
 
 .section_header_wrapper {
-    display: flex;
     align-items: center;
+
+    display: flex;
 }
 
 .study:nth-child(n + 3) {
@@ -174,22 +185,25 @@ h3 {
 .triangle_icon {
     width: 18px;
     height: 18px;
-    fill: #267fb7;
     margin-right: 5px;
+
+    fill: #267fb7;
 }
 
 .section_header {
-    text-transform: uppercase;
-    color: #3c8ad4;
-    font-size: 1.3rem;
     padding: 20px 0;
-}
 
+    font-size: 1.3rem;
+    text-transform: uppercase;
+
+    color: #3c8ad4;
+}
 
 .startyear,
 .endyear {
-    color: #1c1c1c;
     font-weight: bold;
+
+    color: #1c1c1c;
 }
 
 .year_hyphen {
@@ -198,9 +212,10 @@ h3 {
 
 .education_header,
 .job_header {
-    text-transform: uppercase;
-    color: #58afe3;
     font-weight: bold;
+    text-transform: uppercase;
+
+    color: #58afe3;
 }
 
 .education_description,
@@ -212,13 +227,14 @@ h3 {
     padding-top: 15px;
 }
 
-
 .language_item {
-    text-transform: capitalize;
-    margin: 0 10px 10px 0;
+    justify-content: space-between;
+
     display: flex;
     width: 50%;
-    justify-content: space-between;
+    margin: 0 10px 10px 0;
+
+    text-transform: capitalize;
 }
 
 .square_wrapper {
@@ -229,6 +245,7 @@ h3 {
     width: 17px;
     height: 17px;
     margin: 0 2px;
+
     background-color: #378cc2;
 }
 
@@ -236,17 +253,19 @@ h3 {
     background-color: #aebdc6;
 }
 
-
 .skill_item {
-    text-transform: uppercase;
+    justify-content: space-between;
+
     display: flex;
     width: 50%;
-    justify-content: space-between;
+
+    text-transform: uppercase;
 }
 
 .contact_list {
-    display: flex;
     flex-wrap: wrap;
+
+    display: flex;
 }
 
 .contact_item {
@@ -255,8 +274,9 @@ h3 {
 
 .contact_item>h2 {
     text-transform: capitalize;
-    color: #58afe3;
     font-size: 1.2rem;
+
+    color: #58afe3;
 }
 
 .phone_link,
@@ -264,6 +284,7 @@ h3 {
 .telegram_link,
 .address_link {
     text-decoration: none;
+
     color: #000000;
 }
 
@@ -281,12 +302,14 @@ h3 {
 .about {
     width: 114%;
     margin-top: -38px;
-    background-color: #3087bc;
-    text-transform: uppercase;
-    color: #ffffff;
     padding-left: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
+
+    text-transform: uppercase;
+
+    background-color: #3087bc;
+    color: #ffffff;
 
 }
 
@@ -335,17 +358,18 @@ h3 {
 }
 
 .precode {
-    background-color: #d8dfe3;
     border: 1px solid #696a6a;
+    background-color: #d8dfe3;
 }
 
 .footer {
     max-width: 1500px;
     min-width: 1260px;
     margin: 0 auto;
-    background-color: #000000;
     padding-top: 10px;
     padding-bottom: 10px;
+
+    background-color: #000000;
 }
 
 .footer_list {
@@ -355,17 +379,19 @@ h3 {
 }
 
 .github_svg {
-    fill: #ffffff;
     height: 100px;
     width: 100px;
+
+    fill: #ffffff;
 }
 
 .github_svg:hover {
-    background-color: #3187ba;
+    border: 1px solid #000000;
     border-radius: 50px;
+
+    background-color: #3187ba;
     stroke: #ffffff;
     fill: #000000;
-    border: 1px solid #000000;
 }
 
 .rsschool_svg {
@@ -391,7 +417,6 @@ h3 {
     stroke: #ffffff;
 }
 
-
 .rsschool_link .svg_0 {
     fill: #ffffff;
 }
@@ -404,27 +429,11 @@ h3 {
     clip-path: url(#SVGID_2_);
 }
 
-.rsschool_link .st2 {
-    clip-path: url(#SVGID_4_);
-}
-
-.rsschool_link .st3 {
-    clip-path: url(#SVGID_6_);
-}
-
-.rsschool_link .st4 {
-    clip-path: url(#SVGID_8_);
-}
-
 .rsschool_link .st5 {
     fill: #fff;
     stroke: #000;
     stroke-width: 4;
     stroke-miterlimit: 10;
-}
-
-.rsschool_link .st6 {
-    clip-path: url(#SVGID_8_);
 }
 
 .rsschool_link .st6,
@@ -433,11 +442,6 @@ h3 {
     stroke: #000;
     stroke-width: 4;
     stroke-miterlimit: 10;
-}
-
-.rsschool_link .st8,
-.rsschool_link .st9 {
-    clip-path: url(#SVGID_10_);
 }
 
 .rsschool_link .st9 {
@@ -468,8 +472,8 @@ h3 {
     stroke: #ff0000;
 }
 
-
 .copyright {
-    color: #ffffff;
     padding-left: calc(50% - 160px);
+
+    color: #ffffff;
 }
