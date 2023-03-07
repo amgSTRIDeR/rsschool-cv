@@ -1,0 +1,466 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assets/fonts/Montserrat-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assets/fonts/Montserrat-Bold.ttf");
+  font-weight: bold;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul [class],
+ol[class] {
+  padding: 0;
+
+  list-style: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  line-height: 1.5;
+
+  background-color: #195f8a;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+.header {
+  display: flex;
+  max-width: 1500px;
+  min-width: 1260px;
+  margin: 0 auto;
+}
+
+.main_information {
+  width: 50%;
+  color: #ffffff;
+  background-color: #000000;
+  padding-left: 82px;
+  padding-top: 71px;
+}
+
+.navigation {
+  padding-right: 50px;
+
+  text-transform: uppercase;
+}
+
+.navigation_list {
+  justify-content: space-between;
+
+  display: flex;
+  padding-left: 0;
+
+}
+
+.navigation_item_link {
+  font-size: 0.8rem;
+  text-decoration: none;
+
+  color: #ffffff;
+}
+
+.navigation_item_link:hover {
+  border-bottom: 1px solid #ffffff;
+}
+
+.name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 3.13rem;
+  text-transform: uppercase;
+}
+
+.profession {
+  display: inline-block;
+  padding: 5px 20px;
+  margin-bottom: 20px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.88rem;
+  text-transform: uppercase;
+
+  background-color: #3187ba;
+}
+
+.description {
+  max-width: 80%;
+  padding-bottom: 10px;
+
+  font-size: 1.56rem;
+}
+
+.photo_wrapper {
+  overflow: hidden;
+
+  width: 50%;
+  max-height: 675px;
+  background: url("../assets/my-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.my_photo {
+  background-color: #b0dcf5;
+  width: 100%;
+}
+
+.main {
+  max-width: 1500px;
+  min-width: 1260px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.left_column,
+.right_column {
+  width: 50%;
+  padding-left: 82px;
+  padding-right: 82px;
+  padding-bottom: 40px;
+}
+
+.left_column {
+  background-color: #ffffff;
+}
+
+.section_header_wrapper {
+  align-items: center;
+
+  display: flex;
+}
+
+.study:nth-child(n + 3) {
+  padding-top: 15px;
+}
+
+.triangle_icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+
+  fill: #267fb7;
+}
+
+.section_header {
+  padding: 20px 0;
+
+  font-size: 1.3rem;
+  text-transform: uppercase;
+
+  color: #3c8ad4;
+}
+
+.startyear,
+.endyear {
+  font-weight: bold;
+
+  color: #1c1c1c;
+}
+
+.year_hyphen {
+  display: inline-block;
+}
+
+.education_header,
+.job_header {
+  font-weight: bold;
+  text-transform: uppercase;
+
+  color: #58afe3;
+}
+
+.certificate_link {
+  text-decoration: none;
+  color: #3187ba;
+}
+
+.certificate_link:hover {
+  color: #267fb7;
+  border-bottom: 1px solid #195f8a;
+}
+
+.education_description,
+.job_description {
+  font-size: 1.2rem;
+}
+
+.job:nth-child(n + 3) {
+  padding-top: 15px;
+}
+
+.language_item {
+  justify-content: space-between;
+
+  display: flex;
+  width: 50%;
+  margin: 0 10px 10px 0;
+
+  text-transform: capitalize;
+}
+
+.square_wrapper {
+  display: flex;
+}
+
+.square_item {
+  width: 17px;
+  height: 17px;
+  margin: 0 2px;
+
+  background-color: #378cc2;
+}
+
+.square_item_english:nth-child(n + 5) {
+  background-color: #aebdc6;
+}
+
+.skill_item {
+  justify-content: space-between;
+
+  display: flex;
+  width: 50%;
+
+  text-transform: uppercase;
+}
+
+.contact_list {
+  flex-wrap: wrap;
+
+  display: flex;
+}
+
+.contact_item {
+  width: 50%;
+}
+
+.contact_item>h2 {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+
+  color: #58afe3;
+}
+
+.phone_link,
+.email_link,
+.telegram_link,
+.address_link {
+  text-decoration: none;
+
+  color: #000000;
+}
+
+.phone_link:hover,
+.email_link:hover,
+.telegram_link:hover,
+.address_link:hover {
+  border-bottom: 1px solid #000;
+}
+
+.right_column {
+  background-color: #f3f3f3;
+}
+
+.about {
+  width: 114%;
+  margin-top: -38px;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  text-transform: uppercase;
+
+  background-color: #3087bc;
+  color: #ffffff;
+
+}
+
+.skill_item:last-child {
+  margin-bottom: 15px;
+}
+
+.square_item_html:nth-child(n + 5) {
+  background-color: #aebdc6;
+}
+
+.square_item_css:nth-child(n + 5) {
+  background-color: #aebdc6;
+}
+
+.square_item_js:nth-child(n + 4) {
+  background-color: #aebdc6;
+}
+
+.square_item_git:nth-child(n + 4) {
+  background-color: #aebdc6;
+}
+
+.projects_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.work_example {
+  font-size: 40px;
+  font-weight: bold;
+
+  color: #267fb7;
+  text-decoration: none;
+}
+
+.work_example:hover {
+  color: #195f8a;
+}
+
+.work_example_svg {
+  width: 30%;
+}
+
+.work_example:hover {
+  border-bottom: 1px solid #3187ba;
+}
+
+.work_example:hover .sn0 {
+  fill: #3187ba;
+}
+
+.work_example:hover .sn1 {
+  fill: #195f8a;
+}
+
+.sn0 {
+  fill: #195f8a;
+}
+
+.sn1 {
+  fill: #3187ba;
+}
+
+.precode {
+  border: 1px solid #696a6a;
+  background-color: #d8dfe3;
+}
+
+.footer {
+  max-width: 1500px;
+  min-width: 1260px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  background-color: #000000;
+}
+
+.footer_list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.github_svg {
+  height: 100px;
+  width: 100px;
+
+  fill: #ffffff;
+}
+
+.github_svg:hover {
+  border: 1px solid #000000;
+  border-radius: 50px;
+
+  background-color: #3187ba;
+  stroke: #ffffff;
+  fill: #000000;
+}
+
+.rsschool_img {
+  height: 200px;
+  width: 200px;
+
+  filter: invert(100%);
+  opacity: 0.9;
+}
+
+.rsschool_img:hover {
+  opacity: 1;
+}
+
+.html_validator_svg,
+.css_validator_svg {
+  width: 150px;
+}
+
+.html_validator_svg:hover .html_validator_foreground {
+  fill: #3187ba;
+}
+
+.html_validator_svg:hover .html_validator_polyline {
+  stroke: #ff0000;
+}
+
+.css_validator_svg:hover .css_validator_foreground {
+  fill: #3187ba;
+}
+
+.css_validator_svg:hover .css_validator_polyline {
+  stroke: #ff0000;
+}
+
+.copyright {
+  padding-left: calc(50% - 160px);
+
+  color: #ffffff;
+}
