@@ -1,5 +1,5 @@
 # Ovchinnikov Aleksei
-![it's me](./assets/my-photo.jpg)
+![it's me](./assets/img/my-photo.jpg)
 ## Front-End Developer
 *********
 ## Contact information:
