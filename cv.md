@@ -24,4 +24,21 @@ Frontend Software Engineer with 2 years and 7 months of professional experience 
 
 **Tools & Backend**: Git, GitHub actions, CI/CD, Angular CLI, npm, monorepo workflow, AI-assisted development (GitHub Copilot, Claude Code), Node.js, NestJS
 
+### <font color="#00B1D2">PROFESSIONAL EXPERIENCE</font>
+***
 
+**Software Engineer | EPAM Systems** <span style="float: right;">Dec 2023 – Jun 2026</span>
+
+- Independently migrated an enterprise Angular search UI from Angular 20 to Angular 21, adopting Angular Signals and zoneless change detection.
+- Reduced the initial Angular bundle raw size by 23–40% across two UI variants (2.22 MB to 1.71 MB; 1.74 MB to 1.05 MB) by removing unused dependencies, introducing dynamic imports, and applying @defer.
+- Improved Lighthouse performance scores across two UI variants from 52 to 63 and from 24 to 32, while reducing Total Blocking Time by up to 52%.
+- Built embeddable, reusable Angular components from scratch for production SAP.com experiences, delivering enterprise search UI on customer-facing pages.
+- Integrated enterprise search features with the Coveo Headless SDK and OpenSearch-backed REST services using TypeScript and RxJS.
+- Implemented accessibility remediation for enterprise Angular UI components, improving semantic HTML, ARIA usage, keyboard navigation, and focus behavior.
+- Worked in a monorepo with two Angular applications and a shared internal library, collaborating with distributed EPAM and SAP teams through code reviews, QA validation, and production releases.
+- Implemented Microsoft Entra ID (Azure AD) authentication flows for secure enterprise user access.
+
+
+  **Power Engineer / Shift Supervisor | RusHydro** <span style="float: right;">2010 - 2022</span>
+- Led shift teams in mission-critical hydroelectric operations, ensuring reliability, safety, and rapid incident response.
+- Developed strong systems thinking, operational discipline, and high-responsibility decision-making transferable to software engineering.
