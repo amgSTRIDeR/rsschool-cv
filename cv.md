@@ -27,7 +27,7 @@ Frontend Software Engineer with 2 years and 7 months of professional experience 
 ### <font color="#00B1D2">PROFESSIONAL EXPERIENCE</font>
 ***
 
-**Software Engineer | EPAM Systems** <span style="float: right;">Dec 2023 – Jun 2026</span>
+**Software Engineer &#124; EPAM Systems** <span style="float: right;">Dec 2023 – Jun 2026</span>
 
 - Independently migrated an enterprise Angular search UI from Angular 20 to Angular 21, adopting Angular Signals and zoneless change detection.
 - Reduced the initial Angular bundle raw size by 23–40% across two UI variants (2.22 MB to 1.71 MB; 1.74 MB to 1.05 MB) by removing unused dependencies, introducing dynamic imports, and applying @defer.
@@ -39,19 +39,19 @@ Frontend Software Engineer with 2 years and 7 months of professional experience 
 - Implemented Microsoft Entra ID (Azure AD) authentication flows for secure enterprise user access.
 
 
-  **Power Engineer / Shift Supervisor | RusHydro** <span style="float: right;">2010 - 2022</span>
+  **Power Engineer / Shift Supervisor &#124; RusHydro** <span style="float: right;">2010 - 2022</span>
 - Led shift teams in mission-critical hydroelectric operations, ensuring reliability, safety, and rapid incident response.
 - Developed strong systems thinking, operational discipline, and high-responsibility decision-making transferable to software engineering.
 
 ### <font color="#00B1D2">EDUCATION</font>
 ***
-**Master's Degree in Hydropower Engineering** |  Siberian Federal University
+**Master's Degree in Hydropower Engineering** &#124;  Siberian Federal University
 
 ### <font color="#00B1D2">CERTIFICATIONS & PROFESSIONAL TRAINING</font>
 ***
-- AWS Certified Developer – Associate | Amazon Web Services (AWS) | June 2026
-- Coveo Architect Level 1 Certification | June 2026
-- Claude Certified Architect Foundations | June 2026
+- AWS Certified Developer – Associate &#124; Amazon Web Services (AWS) &#124; June 2026
+- Coveo Architect Level 1 Certification &#124; June 2026
+- Claude Certified Architect Foundations &#124; June 2026
 - The Rolling Scopes School - JavaScript / Angular (2023); Node.js and AWS Cloud Developer (2024)
 
 ### <font color="#00B1D2">LANGUAGES</font>
