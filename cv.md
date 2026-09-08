@@ -42,3 +42,18 @@ Frontend Software Engineer with 2 years and 7 months of professional experience 
   **Power Engineer / Shift Supervisor | RusHydro** <span style="float: right;">2010 - 2022</span>
 - Led shift teams in mission-critical hydroelectric operations, ensuring reliability, safety, and rapid incident response.
 - Developed strong systems thinking, operational discipline, and high-responsibility decision-making transferable to software engineering.
+
+### <font color="#00B1D2">EDUCATION</font>
+***
+**Master's Degree in Hydropower Engineering** |  Siberian Federal University
+
+### <font color="#00B1D2">CERTIFICATIONS & PROFESSIONAL TRAINING</font>
+***
+- AWS Certified Developer – Associate | Amazon Web Services (AWS) | June 2026
+- Coveo Architect Level 1 Certification | June 2026
+- Claude Certified Architect Foundations | June 2026
+- The Rolling Scopes School - JavaScript / Angular (2023); Node.js and AWS Cloud Developer (2024)
+
+### <font color="#00B1D2">LANGUAGES</font>
+***
+Russian - Native | English - C1 | Spanish - A2
