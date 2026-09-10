@@ -311,6 +311,28 @@ button {
     color: var(--color-primary);
 }
 
+.certifications {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.certifications li {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    align-items: center;
+    justify-content: start;
+}
+
+.certification {
+    margin-left: 50px;
+}
+
+.certification__issuer {
+    color: var(--color-muted);
+    justify-self: end;
+}
+
 .code-example {
     margin: 0;
     padding: 20px 24px;
