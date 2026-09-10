@@ -238,6 +238,78 @@ button {
     margin-bottom: 8px;
 }
 
+.skills__wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.skill-group__title {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    gap: 8px;
+    align-items: center;
+    color: var(--color-primary);
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.skill-group__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+}
+
+.job__header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+            "job-company job-period"
+            "job-role job-type"
+            "job-stack job-stack";
+    align-items: center;
+}
+
+.job__company {
+    grid-area: job-company;
+}
+
+.job__role {
+    grid-area: job-role;
+}
+
+.job__period {
+    grid-area: job-period;
+    justify-self: end;
+}
+
+.job__type {
+    grid-area: job-type;
+    justify-self: end;
+
+    color: var(--color-primary);
+    font-size: 0.8rem;
+}
+
+.job__stack {
+    grid-area: job-stack;
+    color: var(--color-muted);
+    font-size: 0.8rem;
+}
+
+.job__achievements {
+    margin-block: 5px;
+}
+
+.job__achievements li::marker {
+    color: var(--color-primary);
+}
 
 .code-example {
     margin: 0;
