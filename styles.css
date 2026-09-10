@@ -71,6 +71,39 @@ button {
     font: inherit;
 }
 
+.page-header {
+    padding-block: 32px;
+}
+
+main {
+    padding-block: 40px;
+}
+
+.page-footer {
+    padding-block: 24px;
+}
+
+.container {
+    width: min(100% - 32px, 1120px);
+    margin-inline: auto;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+}
+
 .navigation {
     border-block-end: 1px solid var(--color-border);
 }
