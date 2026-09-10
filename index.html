@@ -25,94 +25,93 @@
 
 <header class="page-header">
     <div class="container">
-        <div class="profile">
-            <div>
-                <h1 class="profile__name">Aleksei Ovchinnikov</h1>
-                <p class="profile__position">Frontend Software Engineer | Angular &amp; TypeScript</p>
+        <div class="page-header__inner">
+            <div class="profile">
+                <img
+                        class="avatar"
+                        src="./assets/photo.jpg"
+                        alt="Aleksei Ovchinnikov"
+                >
+                <div>
+                    <h1 class="profile__name">Aleksei Ovchinnikov</h1>
+                    <p class="profile__position">Frontend Software Engineer | Angular &amp; TypeScript</p>
+                </div>
             </div>
-            <img
-                    class="avatar"
-                    src="./assets/photo.jpg"
-                    alt="Aleksei Ovchinnikov"
-            >
+
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li>
+                        <a class="navigation__link" href="#summary">Summary</a>
+                    </li>
+                    <li>
+                        <a class="navigation__link" href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a class="navigation__link" href="#experience">Experience</a>
+                    </li>
+                    <li>
+                        <a class="navigation__link" href="#education">Education</a>
+                    </li>
+                    <li>
+                        <a class="navigation__link" href="#certifications">Certifications</a>
+                    </li>
+                    <li>
+                        <a class="navigation__link" href="#languages">Languages</a>
+                    </li>
+                    <li>
+                        <a class="navigation__link" href="#code-example">Code example</a>
+                    </li>
+                </ul>
+            </nav>
+            <address class="contacts">
+                <ul class="contacts__list">
+                    <li class="contacts__item">
+                        <svg class="icon-contacts">
+                            <use href="assets/sprites.svg#icon-location"></use>
+                        </svg>
+                        <span>Uruguay</span>
+                    </li>
+                    <li class="contacts__item">
+                        <svg class="icon-contacts">
+                            <use href="assets/sprites.svg#icon-remote"></use>
+                        </svg>
+                        <span>Remote <span class="pipe">|</span> LATAM / US<span
+                                class="pipe">|</span> EU overlap</span>
+                    </li>
+                    <li class="contacts__item">
+                        <svg class="icon-contacts">
+                            <use href="assets/sprites.svg#icon-phone"></use>
+                        </svg>
+                        <a href="tel:+59898261344">+598&nbsp;98&nbsp;261&nbsp;344</a><span>(WhatsApp)</span>
+                    </li>
+                    <li class="contacts__item">
+                        <svg class="icon-contacts">
+                            <use href="assets/sprites.svg#icon-email"></use>
+                        </svg>
+                        <a href="mailto:alex.ovchinnikov.dev@gmail.com">alex.ovchinnikov.dev@gmail.com</a>
+                    </li>
+                    <li class="contacts__item">
+                        <svg class="icon-contacts">
+                            <use href="assets/sprites.svg#icon-telegram"></use>
+                        </svg>
+                        <a href="https://t.me/amgstrider" rel="noopener">@amgstrider</a>
+                    </li>
+                    <li class="contacts__item">
+                        <svg class="icon-contacts">
+                            <use href="assets/sprites.svg#icon-linkedin"></use>
+                        </svg>
+                        <a href="https://www.linkedin.com/in/aleksei-ovchinnikov/" rel="noopener">LinkedIn</a>
+                    </li>
+                    <li class="contacts__item">
+                        <svg class="icon-contacts">
+                            <use href="assets/sprites.svg#icon-github"></use>
+                        </svg>
+                        <a href="https://github.com/amgstrider" rel="noopener">GitHub</a>
+                    </li>
+                </ul>
+            </address>
         </div>
 
-        <address class="contacts">
-            <ul class="contacts__list">
-                <li class="contacts__item">
-                    <svg class="icon">
-                        <use href="assets/sprites.svg#icon-location"></use>
-                    </svg>
-                    <span>Uruguay</span>
-                </li>
-                <li class="contacts__item">
-                    <svg class="icon">
-                        <use href="assets/sprites.svg#icon-remote"></use>
-                    </svg>
-                    <span>Remote | LATAM / US hours | Europe overlap</span>
-                </li>
-            </ul>
-            <ul class="contacts__list">
-                <li class="contacts__item">
-                    <svg class="icon">
-                        <use href="assets/sprites.svg#icon-email"></use>
-                    </svg>
-                    <a href="mailto:alex.ovchinnikov.dev@gmail.com">alex.ovchinnikov.dev@gmail.com</a>
-                </li>
-                <li class="contacts__item">
-                    <svg class="icon">
-                        <use href="assets/sprites.svg#icon-phone"></use>
-                    </svg>
-                    <a href="tel:+59898261344">+598&nbsp;98&nbsp;261&nbsp;344</a><span>(WhatsApp)</span>
-                </li>
-                <li class="contacts__item">
-                    <svg class="icon">
-                        <use href="assets/sprites.svg#icon-telegram"></use>
-                    </svg>
-                    <a href="https://t.me/amgstrider" rel="noopener">@amgstrider</a>
-                </li>
-            </ul>
-            <ul class="contacts__list">
-                <li class="contacts__item">
-                    <svg class="icon">
-                        <use href="assets/sprites.svg#icon-linkedin"></use>
-                    </svg>
-                    <a href="https://www.linkedin.com/in/aleksei-ovchinnikov/" rel="noopener">LinkedIn</a>
-                </li>
-                <li class="contacts__item">
-                    <svg class="icon">
-                        <use href="assets/sprites.svg#icon-github"></use>
-                    </svg>
-                    <a href="https://github.com/amgstrider" rel="noopener">GitHub</a>
-                </li>
-            </ul>
-        </address>
-
-        <nav class="navigation">
-            <ul class="navigation__list">
-                <li>
-                    <a href="#summary">Summary</a>
-                </li>
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-                <li>
-                    <a href="#experience">Experience</a>
-                </li>
-                <li>
-                    <a href="#education">Education</a>
-                </li>
-                <li>
-                    <a href="#certifications">Certifications</a>
-                </li>
-                <li>
-                    <a href="#languages">Languages</a>
-                </li>
-                <li>
-                    <a href="#code-example">Code example</a>
-                </li>
-            </ul>
-        </nav>
     </div>
 
 </header>
@@ -132,6 +131,7 @@
                     distributed international teams.</p>
             </section>
             <section class="resume-section" id="skills">
+                <h2 class="section-title">Technical skills</h2>
                 <section class="skill-group">
                     <h3 class="skill-group__title">
                         <svg class="icon">

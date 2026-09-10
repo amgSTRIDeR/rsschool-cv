@@ -6,8 +6,9 @@
     --color-border: #d9e0ea;
     --color-page: #f5f7fa;
     --color-surface: #ffffff;
+    --color-header: #ffffff;
 
-    --color-code-bg: #f6f8fa;
+    --color-code-bg: #f7f7f8;
     --color-code-header: #eef1f5;
     --color-code-border: #d8dee4;
     --color-code-text: #24292f;
@@ -16,6 +17,8 @@
     --color-code-method: #0550ae;
     --color-code-string: #0a3069;
     --color-code-comment: #6e7781;
+
+    --header-height: 153px;
 }
 
 *,
@@ -26,6 +29,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: var(--header-height);
 }
 
 body {
@@ -73,11 +77,23 @@ button {
 }
 
 .page-header {
-    padding-block: 32px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    padding-block: 10px;
+
+    background-color: var(--color-header);
+    border-block-end: 1px solid var(--color-border);
+    box-shadow: 0 4px 14px rgb(17 26 58 / 7%);
 }
 
-main {
-    padding-block: 40px;
+.page-header__inner {
+    display: grid;
+    grid-template-columns: auto 515px;
+    grid-template-areas:
+            "profile contacts"
+            "navigation contacts";
 }
 
 .page-footer {
@@ -91,76 +107,82 @@ main {
 
 .profile {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-
+    justify-content: flex-start;
+    gap: 40px;
+    grid-area: profile;
 }
 
 .avatar {
-    width: 120px;
-    height: 120px;
+    --cut: 12px;
+    width: 80px;
+    height: 80px;
 
-    border-radius: 50%;
+    clip-path: polygon(
+            var(--cut) 0,
+            calc(100% - var(--cut)) 0,
+            100% var(--cut),
+            100% calc(100% - var(--cut)),
+            calc(100% - var(--cut)) 100%,
+            var(--cut) 100%,
+            0 calc(100% - var(--cut)),
+            0 var(--cut)
+    );
 
     object-fit: cover;
 }
 
 .navigation {
-    border-block-end: 1px solid var(--color-border);
     color: var(--color-primary);
+    grid-area: navigation;
+    align-self: end;
 }
 
 .navigation__list {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    gap: 0 28px;
+    gap: 10px;
 
-    margin: 0;
-    padding: 14px 0;
+    margin: 10px 0 0 0;
+    padding: 0;
 
     list-style: none;
 }
 
 .navigation__link {
-    position: relative;
+    display: inline-flex;
+    align-items: center;
 
-    display: block;
-    padding-block: 6px;
+    padding: 4px 7px;
 
-    font-size: 14px;
+    font-size: 0.7rem;
     font-weight: 600;
 
-    color: var(--color-heading);
+    color: var(--color-primary);
     text-decoration: none;
 
-    transition: color 0.2s ease;
+    background-color: var(--color-surface);
+
+    border: 1px solid var(--color-primary);
+    border-radius: 6px;
+
+    transition: color 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
 }
 
-.navigation__link::after {
-    content: "";
-
-    position: absolute;
-    inset-inline: 0;
-    inset-block-end: 0;
-
-    height: 2px;
-
+.navigation__link:hover {
+    color: var(--color-surface);
     background-color: var(--color-primary);
-
-    transform: scaleX(0);
-
-    transition: transform 0.2s ease;
 }
 
-.navigation__link:hover,
+.navigation__link:active {
+    transform: translateY(1px);
+}
+
 .navigation__link:focus-visible {
-    color: var(--color-primary);
-}
-
-.navigation__link:hover::after,
-.navigation__link:focus-visible::after {
-    transform: scaleX(1);
+    outline: 2px solid var(--color-primary);
+    outline-offset: 3px;
 }
 
 .icon {
@@ -169,11 +191,29 @@ main {
     color: var(--color-primary);
 }
 
+.icon-contacts {
+    width: 12px;
+    height: 12px;
+    color: var(--color-primary);
+}
+
+.pipe {
+    font-style: normal;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.contacts {
+    grid-area: contacts;
+}
+
 .contacts__list {
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    height: 100%;
     padding: 0;
+    font-size: 0.9rem;
 
     list-style: none;
 }
@@ -188,10 +228,16 @@ main {
     gap: 8px;
 }
 
-.contacts__item + .contacts__item {
-    padding-inline-start: 24px;
-    border-inline-start: 1px solid var(--color-border);
+.resume-section {
+    margin-top: 15px;
 }
+
+.section-title {
+    color: var(--color-primary);
+    border-block-end: 1px solid var(--color-border);
+    margin-bottom: 8px;
+}
+
 
 .code-example {
     margin: 0;
