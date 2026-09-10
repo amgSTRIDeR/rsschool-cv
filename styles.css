@@ -17,6 +17,53 @@
     color: var(--color-primary);
 }
 
+.code-example {
+    margin: 0;
+    padding: 20px 24px;
+
+    overflow-x: auto;
+
+    font-family:
+            "Cascadia Code",
+            "Fira Code",
+            "JetBrains Mono",
+            Consolas,
+            monospace;
+
+    font-size: 0.9rem;
+    line-height: 1.65;
+
+    color: #d4d4d4;
+    background-color: #1e1e1e;
+
+    border: 1px solid #2d2d2d;
+    border-radius: 8px;
+}
+
+.code-example code {
+    font-family: inherit;
+}
+
+.code-keyword {
+    color: #c586c0;
+}
+
+.code-class {
+    color: #4ec9b0;
+}
+
+.code-method {
+    color: #dcdcaa;
+}
+
+.code-string {
+    color: #ce9178;
+}
+
+.code-comment {
+    color: #6a9955;
+}
+
 .footer-icon {
     width: 48px;
     height: 48px;

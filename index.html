@@ -95,7 +95,7 @@
                     <svg class="icon">
                         <use href="assets/sprites.svg#icon-linkedin"></use>
                     </svg>
-                    <a href="https://www.linkedin.com/in/aleksei-ovchinnikov/ rel="noopener"">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/aleksei-ovchinnikov/ rel=" noopener"">LinkedIn</a>
                 </li>
                 <li class="contacts__item">
                     <svg class="icon">
@@ -438,6 +438,38 @@
                         <dd>A2</dd>
                     </div>
                 </dl>
+            </section>
+            <section class="resume-section" id="code-example">
+                <h2 class="section-title">Code Example</h2>
+
+                <p>
+                    Cleaning up multiple event listeners with a single AbortController.
+                </p>
+
+                <pre class="code-example"><code><span class="code-keyword">const</span> controller = <span
+                        class="code-keyword">new</span> <span class="code-class">AbortController</span>();
+<span class="code-keyword">const</span> { signal } = controller;
+
+window.<span class="code-method">addEventListener</span>(
+  <span class="code-string">'resize'</span>,
+  handleResize,
+  { signal }
+);
+
+document.<span class="code-method">addEventListener</span>(
+  <span class="code-string">'keydown'</span>,
+  handleKeydown,
+  { signal }
+);
+
+button.<span class="code-method">addEventListener</span>(
+  <span class="code-string">'click'</span>,
+  handleClick,
+  { signal }
+);
+
+<span class="code-comment">// Removes all listeners associated with this signal</span>
+controller.<span class="code-method">abort</span>();</code></pre>
             </section>
         </article>
     </div>
