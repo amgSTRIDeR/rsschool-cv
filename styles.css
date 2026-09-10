@@ -200,8 +200,7 @@ button {
 
 .pipe {
     font-style: normal;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-inline: 8px;
 }
 
 .contacts {
@@ -325,7 +324,7 @@ button {
     justify-content: start;
 }
 
-.certification {
+.certification__name {
     margin-left: 50px;
 }
 
