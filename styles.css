@@ -1,0 +1,18 @@
+:root {
+    --color-primary: #1469d8;
+    --color-primary-dark: #0f4fa8;
+
+    --color-heading: #111a3a;
+    --color-text: #263247;
+    --color-muted: #667085;
+
+    --color-border: #d9e0ea;
+    --color-background: #ffffff;
+    --color-page-background: #f5f7fa;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    color: var(--color-primary);
+}

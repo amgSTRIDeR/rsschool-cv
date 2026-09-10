@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <!-- Contacts / meta -->
+
+    <symbol id="icon-location" viewBox="0 0 24 24">
+        <path d="M12 21s-6-5.33-6-10a6 6 0 1 1 12 0c0 4.67-6 10-6 10Z"
+              fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="12" cy="11" r="2.2"
+                fill="none" stroke="currentColor" stroke-width="1.8"/>
+    </symbol>
+
+    <symbol id="icon-remote" viewBox="0 0 24 24">
+        <rect x="3" y="4" width="18" height="12" rx="2"
+              fill="none" stroke="currentColor" stroke-width="1.8"/>
+        <path d="M8 20h8M12 16v4"
+              fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round"/>
+    </symbol>
+
+    <symbol id="icon-email" viewBox="0 0 24 24">
+        <rect x="3" y="5" width="18" height="14" rx="2"
+              fill="none" stroke="currentColor" stroke-width="1.8"/>
+        <path d="M4 7l8 6 8-6"
+              fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <symbol id="icon-phone" viewBox="0 0 24 24">
+        <path d="M21 16.2v3a2 2 0 0 1-2.18 2A16.6 16.6 0 0 1 2.8 5.18
+             2 2 0 0 1 4.8 3h3a2 2 0 0 1 2 1.72c.12.86.37 1.69.74 2.47
+             a2 2 0 0 1-.45 2.18L8.9 10.55a13.5 13.5 0 0 0 4.55 4.55
+             l1.18-1.18a2 2 0 0 1 2.18-.45c.78.37 1.61.62 2.47.74
+             A2 2 0 0 1 21 16.2Z"
+              fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <symbol id="icon-linkedin" viewBox="0 0 24 24">
+        <rect x="4" y="4" width="16" height="16" rx="2"
+              fill="none" stroke="currentColor" stroke-width="1.8"/>
+        <circle cx="8" cy="9" r="1" fill="currentColor"/>
+        <path d="M8 11v5M12 11v5M12 13.2c.5-1.1 1.38-1.7 2.55-1.7
+             1.66 0 2.45 1.1 2.45 3V16.8"
+              fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round"/>
+    </symbol>
+
+    <symbol id="icon-github" viewBox="0 0 24 24">
+        <path d="M12 3a9 9 0 0 0-2.85 17.54c.45.08.61-.19.61-.43v-1.52
+             c-2.49.54-3.01-1.05-3.01-1.05-.41-1.04-1-1.31-1-1.31
+             -.82-.56.06-.55.06-.55.9.06 1.37.93 1.37.93.8 1.37
+             2.09.97 2.6.74.08-.58.31-.97.56-1.2-1.99-.23-4.08-.99
+             -4.08-4.4 0-.97.35-1.77.92-2.4-.09-.23-.4-1.16.09-2.42
+             0 0 .75-.24 2.46.91A8.52 8.52 0 0 1 12 7.9c.75 0 1.51.1
+             2.22.3 1.71-1.15 2.46-.91 2.46-.91.49 1.26.18 2.19.09
+             2.42.57.63.92 1.43.92 2.4 0 3.42-2.1 4.16-4.09 4.39
+             .32.28.61.84.61 1.69v2.52c0 .24.16.52.62.43A9 9 0 0 0 12 3Z"
+              fill="currentColor"/>
+    </symbol>
+
+    <symbol id="icon-telegram" viewBox="0 0 24 24">
+        <path d="M21 4.5 18.1 19a1 1 0 0 1-1.48.67l-4.3-2.56-2.2 2.12
+             a.8.8 0 0 1-1.35-.5l.3-4.05L17.3 7.3c.34-.3-.07-.47-.5-.2
+             l-10.2 6.43-4.39-1.45a.86.86 0 0 1 .03-1.64L19.6 3.7
+             A1.1 1.1 0 0 1 21 4.5Z"
+              fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- Skills -->
+
+    <symbol id="icon-frontend" viewBox="0 0 24 24">
+        <path d="M8 8 4.5 12 8 16M16 8 19.5 12 16 16M14 5l-4 14"
+              fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <symbol id="icon-ui" viewBox="0 0 24 24">
+        <rect x="3" y="4" width="18" height="14" rx="2"
+              fill="none" stroke="currentColor" stroke-width="1.8"/>
+        <path d="M8 20h8M12 18v2"
+              fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round"/>
+        <circle cx="8" cy="8" r="1" fill="currentColor"/>
+        <circle cx="12" cy="8" r="1" fill="currentColor"/>
+        <circle cx="16" cy="8" r="1" fill="currentColor"/>
+    </symbol>
+
+    <symbol id="icon-search" viewBox="0 0 24 24">
+        <circle cx="11" cy="11" r="6"
+                fill="none" stroke="currentColor" stroke-width="1.8"/>
+        <path d="M20 20l-4.2-4.2"
+              fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round"/>
+    </symbol>
+
+    <symbol id="icon-performance" viewBox="0 0 24 24">
+        <path d="M5 16a7 7 0 1 1 14 0"
+              fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round"/>
+        <path d="M12 12l4-2"
+              fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round"/>
+        <circle cx="12" cy="12" r="1.4" fill="currentColor"/>
+    </symbol>
+
+    <symbol id="icon-backend" viewBox="0 0 24 24">
+        <ellipse cx="12" cy="5.5" rx="7" ry="2.5"
+                 fill="none" stroke="currentColor" stroke-width="1.8"/>
+        <path d="M5 5.5v5c0 1.38 3.13 2.5 7 2.5s7-1.12 7-2.5v-5
+             M5 10.5v5c0 1.38 3.13 2.5 7 2.5s7-1.12 7-2.5v-5"
+              fill="none" stroke="currentColor" stroke-width="1.8"/>
+    </symbol>
+</svg>
