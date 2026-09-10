@@ -1,14 +1,131 @@
 :root {
     --color-primary: #1469d8;
-    --color-primary-dark: #0f4fa8;
-
     --color-heading: #111a3a;
     --color-text: #263247;
     --color-muted: #667085;
-
     --color-border: #d9e0ea;
-    --color-background: #ffffff;
-    --color-page-background: #f5f7fa;
+    --color-page: #f5f7fa;
+    --color-surface: #ffffff;
+    --color-code-bg: #f6f8fa;
+    --color-code-header: #eef1f5;
+    --color-code-border: #d8dee4;
+    --color-code-text: #24292f;
+    --color-code-keyword: #cf222e;
+    --color-code-class: #8250df;
+    --color-code-method: #0550ae;
+    --color-code-string: #0a3069;
+    --color-code-comment: #6e7781;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    font-family: "Manrope", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+
+    color: var(--color-text);
+    background-color: var(--color-surface);
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+dl,
+dd {
+    margin-block: 0;
+}
+
+img,
+svg {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: inherit;
+}
+
+button {
+    font: inherit;
+}
+
+.navigation {
+    border-block-end: 1px solid var(--color-border);
+}
+
+.navigation__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0 28px;
+
+    margin: 0;
+    padding: 14px 0;
+
+    list-style: none;
+}
+
+.navigation__link {
+    position: relative;
+
+    display: block;
+    padding-block: 6px;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    color: var(--color-heading);
+    text-decoration: none;
+
+    transition: color 0.2s ease;
+}
+
+.navigation__link::after {
+    content: "";
+
+    position: absolute;
+    inset-inline: 0;
+    inset-block-end: 0;
+
+    height: 2px;
+
+    background-color: var(--color-primary);
+
+    transform: scaleX(0);
+
+    transition: transform 0.2s ease;
+}
+
+.navigation__link:hover,
+.navigation__link:focus-visible {
+    color: var(--color-primary);
+}
+
+.navigation__link:hover::after,
+.navigation__link:focus-visible::after {
+    transform: scaleX(1);
 }
 
 .icon {
@@ -33,10 +150,10 @@
     font-size: 0.9rem;
     line-height: 1.65;
 
-    color: #d4d4d4;
-    background-color: #1e1e1e;
+    color: var(--color-code-text);
+    background-color: var(--color-code-bg);
 
-    border: 1px solid #2d2d2d;
+    border: 1px solid var(--color-code-border);
     border-radius: 8px;
 }
 
@@ -45,23 +162,23 @@
 }
 
 .code-keyword {
-    color: #c586c0;
+    color: var(--color-code-keyword);
 }
 
 .code-class {
-    color: #4ec9b0;
+    color: var(--color-code-class);
 }
 
 .code-method {
-    color: #dcdcaa;
+    color: var(--color-code-method);
 }
 
 .code-string {
-    color: #ce9178;
+    color: var(--color-code-string);
 }
 
 .code-comment {
-    color: #6a9955;
+    color: var(--color-code-comment);
 }
 
 .footer-icon {
