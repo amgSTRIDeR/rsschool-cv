@@ -333,6 +333,28 @@ button {
     justify-self: end;
 }
 
+.languages {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.language dt {
+    color: var(--color-text);
+}
+
+.language dd {
+    margin-left: 10px;
+    color: var(--color-muted);
+}
+
 .code-example {
     margin: 0;
     padding: 20px 24px;
